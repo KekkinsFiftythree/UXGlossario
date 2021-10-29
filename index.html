@@ -1,6 +1,16 @@
 <!doctype html>
 <html lang="it">
 <head>
+<script>
+function hover(element)
+{
+    element.style.backgroundColor = "red";
+}
+function hoverOff(element)
+{
+    element.style.backgroundColor = "#000079";
+}
+</script>
 <style>
 table {
   width:100%;
@@ -15,7 +25,7 @@ table {
   <tr>
     <td style="width:320px"><h2 style="text-align:center"><span style="font-family:verdana">Indice</span></h2>
 		<ul style="font-family:verdana"><span style="text-align:left"><span style="font-size:14px">
-			<li><a href="https://kekkinsfiftythree.github.io/UXGlossario/GlossarioUX_1.html" onclick="window.open(this.href, '', 'resizable=no,status=no,location=no,toolbar=no,menubar=no,fullscreen=no,scrollbars=no,dependent=no,width=980,left=350,height=750,top=100'); return false;">Buffering iniziale</a></li>
+			<li><a href="https://kekkinsfiftythree.github.io/UXGlossario/GlossarioUX_1.html" onclick="window.open(this.href, '', 'resizable=no,status=no,location=no,toolbar=no,menubar=no,fullscreen=no,scrollbars=no,dependent=no,width=980,left=350,height=750,top=100'); return false;"><li onmouseover="hover(this)" onmouseout="hoverOff(this)"><a href="Buffering iniziale">Buffering iniziale</a></a></li>
 			<li><a href="https://kekkinsfiftythree.github.io/UXGlossario/GlossarioUX_2.html" onclick="window.open(this.href, '', 'resizable=no,status=no,location=no,toolbar=no,menubar=no,fullscreen=no,scrollbars=no,dependent=no,width=980,left=350,height=750,top=100'); return false;">Buffering durante la fruizione</a> / <a href="https://kekkinsfiftythree.github.io/UXGlossario/GlossarioUX_3.html" onclick="window.open(this.href, '', 'resizable=no,status=no,location=no,toolbar=no,menubar=no,fullscreen=no,scrollbars=no,dependent=no,width=980,left=350,height=750,top=100'); return false;">Fermo immagine</a></li>
 			<li><a href="https://kekkinsfiftythree.github.io/UXGlossario/GlossarioUX_4.html" onclick="window.open(this.href, '', 'resizable=no,status=no,location=no,toolbar=no,menubar=no,fullscreen=no,scrollbars=no,dependent=no,width=980,left=350,height=750,top=100'); return false;">Bassa risoluzione</a> / <a href="https://kekkinsfiftythree.github.io/UXGlossario/GlossarioUX_5.html" onclick="window.open(this.href, '', 'resizable=no,status=no,location=no,toolbar=no,menubar=no,fullscreen=no,scrollbars=no,dependent=no,width=980,left=350,height=750,top=100'); return false;">Squadrettamenti</a> / <a href="https://kekkinsfiftythree.github.io/UXGlossario/GlossarioUX_6.html" onclick="window.open(this.href, '', 'resizable=no,status=no,location=no,toolbar=no,menubar=no,fullscreen=no,scrollbars=no,dependent=no,width=980,left=350,height=750,top=100'); return false;">Bordi frastagliati o con aloni</a></li>
 			<li><a href="https://kekkinsfiftythree.github.io/UXGlossario/GlossarioUX_7.html" onclick="window.open(this.href, '', 'resizable=no,status=no,location=no,toolbar=no,menubar=no,fullscreen=no,scrollbars=no,dependent=no,width=980,left=350,height=750,top=100'); return false;">Immagini sfuocate</a></li>
